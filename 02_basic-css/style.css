@@ -1,0 +1,117 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 800px;
+}
+
+.content-1 {
+    background: #ccc;
+    margin-top: 10px;
+    padding: 20px;
+    border-top: solid 5px rgb(62, 65, 209);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+.content-2 {
+    background: rgb(32, 31, 31);
+    margin-top: 10px;
+    padding: 20px;
+    border-top: solid 5px rgb(218, 49, 49);
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 0 0 20px 20px;
+    -webkit-border-radius: 0 0 20px 20px;
+    -moz-border-radius: 0 0 20px 20px;
+    -ms-border-radius: 0 0 20px 20px;
+    -o-border-radius: 0 0 20px 20px;
+    margin-bottom: 20px;
+}
+
+.content-1 h1 {
+    color: rgb(62, 65, 209);
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.content-1 p {
+    color: rgb(32, 31, 31);
+    font-size: 20px;
+}
+
+.content-2 h1 {
+    color: rgb(218, 49, 49);
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.content-2 p {
+    color: #ccc;
+    font-size: 20px;
+}
+
+
+/* NEXT */
+
+.kategori {
+    padding: 20px;
+    background: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.kategori h2 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.kategori p {
+    font-size: 25px;
+}
+
+.kategori ul {
+    list-style: none;
+}
+
+.kategori li {
+    margin: 5px;
+    padding: 5px;
+}
+
+.kategori ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.kategori ul li a:hover {
+    color: #ccc;
+    background: rgb(80, 75, 75);
+}
+
+
+/* NEXT */
+
+.block {
+    float: left;
+    width: 33.33%;
+    border: 2px solid #333;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    background: skyblue;
+}
+
+.button {
+    padding: 10px;
+    background: rgb(194, 194, 202);
+}
+
+.button:hover {
+    background: #333;
+    color: rgb(194, 194, 202);
+}
+
+.block a {
+    text-decoration: none;
+    color: #333;
+}
