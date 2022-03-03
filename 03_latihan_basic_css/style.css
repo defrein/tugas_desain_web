@@ -1,0 +1,279 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: lightgrey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    height: 80px;
+    background: #75a8ae;
+    border-bottom: solid 5px #45818e;
+}
+
+.container nav ul {
+    margin-top: 30px;
+    float: right;
+}
+
+.container nav ul li {
+    list-style: none;
+    display: inline;
+}
+
+.container nav ul li a {
+    text-decoration: none;
+    color: #e2fcff;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 5px 15px 5px 15px;
+}
+
+.container nav ul li a:hover {
+    border-bottom: solid 3px #45818e;
+}
+
+#branding {
+    float: left;
+}
+
+#branding .highlight {
+    color: #e2fcff;
+}
+
+#branding h1 {
+    color: #45818e;
+    /* font-family: 'Noto Sans Mono', monospace; */
+}
+
+#login-button {
+    background: #45818e;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+}
+
+#login-button:hover {
+    background: #195f77;
+    border-bottom: none;
+}
+
+#showcase {
+    height: 525px;
+    text-align: left;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('./assets/gambar-3.png');
+    /* background-image: url(./assets/gambar-1.jpeg); */
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#showcase h1 {
+    color: #195f77;
+    font-size: 40px;
+    width: 50%;
+}
+
+#showcase h1 span {
+    font-size: 55px;
+    font-family: 'Noto Sans Mono', monospace;
+    color: #75a8ae;
+}
+
+#showcase p {
+    width: 50%;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+#showcase .container {
+    height: 400px;
+    padding-top: 50px;
+}
+
+#showcase a {
+    color: #e2fcff;
+    text-decoration: none;
+}
+
+#showcase #btn-show {
+    background: #45818e;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+}
+
+#showcase #btn-show:hover {
+    background: #093442;
+}
+
+#konten-2 {
+    height: 150px;
+    background: #75a8ae;
+    padding: 50px 100px;
+    font-size: 25px;
+    color: #313131;
+    text-align: justify;
+}
+
+#konten-3 {
+    height: 150px;
+    background: #45818e;
+    padding: 50px 100px;
+    font-size: 25px;
+    color: #313131;
+    text-align: justify;
+}
+
+
+/* ------------------- TUGAS (25.10.2021) ------------------*/
+
+#boxes {
+    margin: 0;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+#boxes .box-1 {
+    /*makes box inline horizontal */
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes .box-1 img {
+    width: 230px;
+}
+
+#boxes .box-2 {
+    /*makes box inline horizontal */
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+#boxes .box-2 img {
+    width: 230px;
+}
+
+#boxes .box-3 {
+    /*makes box inline horizontal */
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes .box-3 img {
+    width: 230px;
+}
+
+#newsletter-2 {
+    padding: 30px;
+    color: #c9c7c7;
+    background: #048897;
+    text-align: center;
+}
+
+#newsletter h1 {
+    float: left;
+}
+
+#intro-2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* padding: 30px 0; */
+    background: #75a8ae;
+}
+
+#intro-2 h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+    color: #0d4355;
+}
+
+#intro-2 p {
+    margin-top: -20px;
+    text-align: center;
+    font-size: 20px;
+    color: #0d4355;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#steps {
+    margin-top: 0;
+    font-weight: bold;
+    color: #313131;
+}
+
+#steps .step-1 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 250px;
+}
+
+#steps .step-1 h2 {
+    font-weight: 700;
+    margin-left: 30px;
+    text-decoration: underline;
+}
+
+#steps .step-1 img {
+    width: 800px;
+}
+
+#steps .steps-2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 170px;
+}
+
+#steps .step-2 h2 {
+    font-weight: 700;
+    margin-left: 30px;
+    text-decoration: underline;
+}
+
+#steps .step-2 img {
+    width: 800px;
+}
+
+#steps .step-3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 250px;
+}
+
+#steps .step-3 h2 {
+    font-weight: 700;
+    margin-left: 30px;
+    text-decoration: underline;
+}
+
+#steps .step-3 img {
+    width: 800px;
+}
+
+#steps .step-4 {
+    background: #0d4355;
+}
+
+#steps .step-4 img {
+    display: block;
+    margin: 50px auto 20px auto;
+}

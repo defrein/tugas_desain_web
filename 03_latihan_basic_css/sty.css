@@ -1,0 +1,146 @@
+footer {
+    background-color: #2A2A2A;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0;
+    font-family: 'verdana', sans-serif;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 28px;
+    margin-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    /*background-color: rebeccapurple; /* aktifkan utk cek posisi*/
+}
+
+.footer-col {
+    width: 20%;
+    padding: 0 15px;
+    margin-right: auto;
+    /* or 0px */
+}
+
+.footer-col h4 {
+    font-family: 'verdana', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-weight: 700px;
+    position: relative;
+}
+
+
+/* garis dibawah subhead */
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #FEF536;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 14px;
+    /*text-transform: capitalize;*/
+    font-weight: 300;
+    color: #ffffff;
+    /*#8fb0d4;*/
+    display: block;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    /*#8fb0d4*/
+    padding-left: 10px;
+}
+
+.footer-col .icons i {
+    display: inline;
+    color: #ffffff;
+    /*#8fb0d4;*/
+    margin: 0 10px 10px 0;
+    text-align: center;
+}
+
+.footer-col .social-links i {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 0.2rem;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links i:hover {
+    color: #2A2A2A;
+    background-color: #ffffff;
+}
+
+.footer hr {
+    width: 90%;
+    height: 1px;
+    border: 0;
+    display: inline-block;
+    margin-left: 60px;
+    background-color: #ffffff;
+    /*#8fb0d4*/
+}
+
+.footer-end h3 {
+    font-size: 15px;
+    color: #ffffff;
+    /*#8fb0d4*/
+    font-weight: normal;
+    position: relative;
+    padding-top: 0;
+    margin-top: -10px;
+    margin-left: 70px;
+}
+
+.footer-end p {
+    float: right;
+    display: inline-block;
+    letter-spacing: -1px;
+    color: #ffffff;
+    /*#8fb0d4*/
+    margin-top: -35px;
+    margin-right: 60px;
+}
+
+
+/*end of Footer*/
+
+
+/* responsive footer */
+
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 547px) {
+    .footer-col {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
